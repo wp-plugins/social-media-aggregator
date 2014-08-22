@@ -1,0 +1,53 @@
+/* line 5, ../sass/im-social-aggregator-admin.scss */
+#sa-settings input[type="text"] {
+  width: 500px;
+}
+/* line 10, ../sass/im-social-aggregator-admin.scss */
+#sa-settings .form-table .field-desc {
+  font-size: 12px;
+  font-style: oblique;
+  opacity: 0.5;
+  margin-left: 5px;
+}
+/* line 18, ../sass/im-social-aggregator-admin.scss */
+#sa-settings .feed-enabled {
+  position: relative;
+}
+/* line 20, ../sass/im-social-aggregator-admin.scss */
+#sa-settings .feed-enabled::after {
+  content: '';
+  border: solid;
+  border-color: #7ad03a transparent;
+  width: 0px;
+  position: absolute;
+  border-width: 0px 6px 6px 6px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -1px;
+  right: -5px;
+}
+
+/* line 43, ../sass/im-social-aggregator-admin.scss */
+#sa-options {
+  width: 500px;
+}
+/* line 45, ../sass/im-social-aggregator-admin.scss */
+#sa-options .sa-section {
+  margin-bottom: 30px;
+}
+/* line 48, ../sass/im-social-aggregator-admin.scss */
+#sa-options .spinner {
+  float: none;
+  margin-top: 5px;
+}
+/* line 52, ../sass/im-social-aggregator-admin.scss */
+#sa-options .message {
+  margin-top: 16px;
+}
+/* line 54, ../sass/im-social-aggregator-admin.scss */
+#sa-options .message .social-feed-error {
+  color: red;
+}
