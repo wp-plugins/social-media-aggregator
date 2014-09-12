@@ -4,7 +4,7 @@
 Plugin Name: Social Media Aggregator
 Plugin URI: http://www.invokemedia.com
 Description: Aggregates social feeds from Facebook, Twitter, Instagram, YouTube, Vimeo, and RSS.
-Version: 0.2
+Version: 1.2
 Author: Invoke Media
 Author URI: http://www.invokemedia.com
 */
@@ -64,7 +64,7 @@ class IM_Aggregator {
 
 		$this->settings = array(
 			'plugin_url' => apply_filters('sa/helpers/get_plugin_url', plugins_url('',__FILE__)),
-			'version' => '1.1'
+			'version' => '1.2'
 		);
 
 		if (!defined('IMSA_LOAD_SCRIPTS')) define('IMSA_LOAD_SCRIPTS', true);
