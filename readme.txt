@@ -4,8 +4,8 @@ Author: Invoke Media
 Donate link: http://www.redcross.ca/donate
 Tags: social media, social feed aggregation
 Requires at least: 3.0.1
-Tested up to: 3.9.1
-Stable tag: 1.0
+Tested up to: 4.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -97,9 +97,15 @@ Use the shortcode [imsa] on your page or post.
 = 0.2 =
 * First version of plugin submitted to the Plugins directory.
 
+= 1.1 =
+Tested plugin with WordPress 4.0, updated version numbers to match stable tag.
+
 == Upgrade Notice ==
 
 = 0.2 =
 First version of plugin submitted to the Plugins directory.
+
+= 1.1 =
+Tested plugin with WordPress 4.0, updated version numbers to match stable tag.
 
 

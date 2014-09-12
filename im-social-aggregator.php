@@ -64,7 +64,7 @@ class IM_Aggregator {
 
 		$this->settings = array(
 			'plugin_url' => apply_filters('sa/helpers/get_plugin_url', plugins_url('',__FILE__)),
-			'version' => '0.2'
+			'version' => '1.1'
 		);
 
 		if (!defined('IMSA_LOAD_SCRIPTS')) define('IMSA_LOAD_SCRIPTS', true);
