@@ -91,7 +91,7 @@ class IM_Aggregator {
 		// $rss = new RSSFeed('https://www.youtube.com/rss/user/BCLiberals', 'bclyt');
 		// $rss->reset_timestamp();
 
-		add_theme_support('post-thumbnails', array($this->post_type));
+		add_theme_support('post-thumbnails');
 
 		// create taxonomy..
 		$labels = array(
