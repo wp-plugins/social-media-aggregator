@@ -736,7 +736,8 @@ class IM_Aggregator {
 					'post_title' => $title,
 					'post_content' => $description,
 					'post_status' => 'publish',
-					'post_type' => $this->post_type
+					'post_type' => $this->post_type,
+					'post_date' => date('Y-m-d H:i:s', $post['date_created']),
 				);
 
 				$postId = wp_insert_post($p);
